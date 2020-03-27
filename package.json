@@ -1,0 +1,31 @@
+{
+  "name": "meetgrafik",
+  "version": "1.0.1",
+  "description": "introspect google meet participants information",
+  "main": "servers",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanre-mark/meetgrafik.git"
+  },
+  "keywords": [
+    "googlemeet",
+    "video",
+    "conferencing",
+    "virtualspace",
+    "participant",
+    "information"
+  ],
+  "author": "Lanre Mark, Matt Severyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanre-mark/meetgrafik/issues"
+  },
+  "homepage": "https://github.com/lanre-mark/meetgrafik#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
