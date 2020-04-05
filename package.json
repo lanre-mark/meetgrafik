@@ -1,40 +1,41 @@
 {
-    "name": "meetgrafik",
-    "version": "1.0.1",
-    "description": "introspect google meet participants' information",
-    "scripts": {
-        "prestart": "npm install",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon ./bin/www"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/lanre-mark/meetgrafik.git"
-    },
-    "keywords": [
-        "googlemeet",
-        "video",
-        "conferencing",
-        "virtualspace",
-        "participant",
-        "information"
-    ],
-    "author": "Lanre Mark, Matt Severyn",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/lanre-mark/meetgrafik/issues"
-    },
-    "homepage": "https://github.com/lanre-mark/meetgrafik#readme",
-    "dependencies": {
-        "bluebird": "^3.7.2",
-        "body-parser": "^1.19.0",
-        "cookie-parser": "^1.4.5",
-        "debug": "^4.1.1",
-        "express": "^4.17.1",
-        "express-useragent": "^1.0.13",
-        "jade": "^1.11.0",
-        "morgan": "^1.10.0",
-        "nodemon": "^2.0.2",
-        "serve-favicon": "^2.5.0"
-    }
+  "name": "meetgrafik",
+  "version": "1.0.1",
+  "description": "introspect google meet participants' information",
+  "scripts": {
+    "prestart": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanre-mark/meetgrafik.git"
+  },
+  "keywords": [
+    "googlemeet",
+    "video",
+    "conferencing",
+    "virtualspace",
+    "participant",
+    "information"
+  ],
+  "author": "Lanre Mark, Matt Severyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanre-mark/meetgrafik/issues"
+  },
+  "homepage": "https://github.com/lanre-mark/meetgrafik#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.13",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "serve-favicon": "^2.5.0"
+  }
 }
