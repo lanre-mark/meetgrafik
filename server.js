@@ -23,7 +23,7 @@ grafikApp.use(useragent.express());
 grafikApp.use(express.static("public"));
 
 // Enable CORS from client-side
-happyButtonApp.use(function (req, res, next) {
+grafikApp.use(function (req, res, next) {
   if (req.headers.origin != undefined) {
     res.setHeader("Access-Control-Allow-Origin", req.headers.origin);
   }
