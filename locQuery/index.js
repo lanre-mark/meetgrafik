@@ -86,8 +86,22 @@ const ipaddformat = (resp, type = 1) => {
   };
 };
 
+const resolveip = (ipaddress) => {
+  _requests("105.112.178.209")
+    .then((rsp) => {
+      return rsp;
+    })
+    .catch((err) => {
+      return { status: "fail", message: err.toString() };
+    });
+};
+
 // for (let ii = 0; ii <= 50; ii++) {
-const resp = _requests("105.112.178.209").then((rsp) => {
-  console.log(rsp);
-});
+// const resp = _requests("105.112.178.209").then((rsp) => {
+//   console.log(rsp);
+// });
 // }
+
+module.exports = {
+  resolveip,
+};
